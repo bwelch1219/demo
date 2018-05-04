@@ -14,8 +14,8 @@ node {
         app = docker.build("seedinnovations/karate")
     }
 
-#	stage('Brit sample parallel') {
-#	parallel {
+//	stage('Brit sample parallel') {
+//	parallel {
     stage('Test image') {
         /* Ideally, we would run a test framework against our image.
          * For this example, we're using a Volkswagen-type approach ;-) */
@@ -33,8 +33,8 @@ node {
             sh 'echo "Tests passed2"'
         }
     }
-#}
-}#
+//}
+//}
 
     stage('Push image') {
         /* Finally, we'll push the image with two tags:
