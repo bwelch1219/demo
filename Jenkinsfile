@@ -20,6 +20,7 @@ node {
          * For this example, we're using a Volkswagen-type approach ;-) */
 
         app.inside {
+            sh 'sleep 5'
             sh 'echo "Tests passed"'
         }
     }
@@ -30,8 +31,10 @@ tasks["task_2"] = {
          * For this example, we're using a Volkswagen-type approach ;-) */
 
         app.inside {
+            sh 'sleep 15'
             sh 'echo "Tests passed2"'
         }
+
     }
 }
 parallel tasks
