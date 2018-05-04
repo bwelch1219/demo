@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: demo.DemoTest
+-------------------------------------------------------------------------------
+Tests run: 63, Failures: 0, Errors: 4, Skipped: 2, Time elapsed: 21.763 sec <<< FAILURE!
+And assert responseTime < 1000(Scenario: Third Scenario - Ocean lookup)  Time elapsed: 0.005 sec  <<< ERROR!
+com.intuit.karate.exception.KarateException: assert evaluated to false: responseTime < 1000
+	at com.intuit.karate.StepDefs.asssertBoolean(StepDefs.java:349)
+	at ✽.And assert responseTime < 1000(demo/features/geonames.feature:33)
+Scenario: Third Scenario - Ocean lookup  Time elapsed: 0.005 sec  <<< ERROR!
+com.intuit.karate.exception.KarateException: assert evaluated to false: responseTime < 1000
+	at com.intuit.karate.StepDefs.asssertBoolean(StepDefs.java:349)
+	at ✽.And assert responseTime < 1000(demo/features/geonames.feature:33)
+Then match response.geonames.observation[*].stationName contains \'HALF MOON BAY\'(Scenario: Fifth Scenario - Weather xml)  Time elapsed: 0.001 sec  <<< ERROR!
+com.intuit.karate.exception.KarateException: path: $.geonames.observation[*].stationName[*], actual: ["MADISONVILLE","QUINCY","WRAY","SCOTTSBORO","CORNING","BUENA VISTA","Hopkins Field","AIKEN","Blake Field","SALIDA"], expected: 'HALF MOON BAY', reason: actual value does not contain expected
+	at com.intuit.karate.StepDefs.matchNamed(StepDefs.java:540)
+	at com.intuit.karate.StepDefs.matchContains(StepDefs.java:532)
+	at ✽.Then match response.geonames.observation[*].stationName contains 'HALF MOON BAY'(demo/features/geonames.feature:71)
+Scenario: Fifth Scenario - Weather xml  Time elapsed: 0.001 sec  <<< ERROR!
+com.intuit.karate.exception.KarateException: path: $.geonames.observation[*].stationName[*], actual: ["MADISONVILLE","QUINCY","WRAY","SCOTTSBORO","CORNING","BUENA VISTA","Hopkins Field","AIKEN","Blake Field","SALIDA"], expected: 'HALF MOON BAY', reason: actual value does not contain expected
+	at com.intuit.karate.StepDefs.matchNamed(StepDefs.java:540)
+	at com.intuit.karate.StepDefs.matchContains(StepDefs.java:532)
+	at ✽.Then match response.geonames.observation[*].stationName contains 'HALF MOON BAY'(demo/features/geonames.feature:71)

@@ -1,0 +1,1239 @@
+15:22:54.859 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:22:55.413 [main] DEBUG com.intuit.karate - 
+1 > GET http://api.geonames.org/citiesJSON?north=44.1&south=-9.9&east=-22.4&west=55.2&lang=de&username=ozzie100
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: api.geonames.org
+1 > User-Agent: Apache-HttpClient/4.5.4 (Java/1.8.0_151)
+
+15:22:56.540 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Cache-Control: no-cache
+1 < Connection: Keep-Alive
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Fri, 04 May 2018 15:22:54 GMT
+1 < Keep-Alive: timeout=5, max=100
+1 < Server: Apache/2.4.6 (CentOS) mod_jk/1.2.41 OpenSSL/1.0.1e-fips
+1 < Transfer-Encoding: chunked
+{"geonames":[{"lng":-99.12766456604,"geonameId":3530597,"countrycode":"MX","name":"Mexiko-Stadt","fclName":"city, village,...","toponymName":"Mexico City","fcodeName":"capital of a political entity","wikipedia":"en.wikipedia.org/wiki/Mexico_City","lat":19.428472427036,"fcl":"P","population":12294193,"fcode":"PPLC"},{"lng":116.397228240967,"geonameId":1816670,"countrycode":"CN","name":"Peking","fclName":"city, village,...","toponymName":"Beijing","fcodeName":"capital of a political entity","wikipedia":"en.wikipedia.org/wiki/Beijing","lat":39.9074977414405,"fcl":"P","population":11716620,"fcode":"PPLC"},{"lng":90.40743827819824,"geonameId":1185241,"countrycode":"BD","name":"Dhaka","fclName":"city, village,...","toponymName":"Dhaka","fcodeName":"capital of a political entity","wikipedia":"en.wikipedia.org/wiki/Dhaka","lat":23.710395616597037,"fcl":"P","population":10356500,"fcode":"PPLC"},{"lng":126.9784,"geonameId":1835848,"countrycode":"KR","name":"Seoul","fclName":"city, village,...","toponymName":"Seoul","fcodeName":"capital of a political entity","wikipedia":"en.wikipedia.org/wiki/Seoul","lat":37.566,"fcl":"P","population":10349312,"fcode":"PPLC"},{"lng":106.84513092041016,"geonameId":1642911,"countrycode":"ID","name":"Jakarta","fclName":"city, village,...","toponymName":"Jakarta","fcodeName":"capital of a political entity","wikipedia":"en.wikipedia.org/wiki/Jakarta","lat":-6.214623197035775,"fcl":"P","population":8540121,"fcode":"PPLC"},{"lng":139.69171,"geonameId":1850147,"countrycode":"JP","name":"Tokio","fclName":"city, village,...","toponymName":"Tokyo","fcodeName":"capital of a political entity","wikipedia":"de.wikipedia.org/wiki/Tokyo","lat":35.6895,"fcl":"P","population":8336599,"fcode":"PPLC"},{"lng":121.531846,"geonameId":1668341,"countrycode":"TW","name":"Taipeh","fclName":"city, village,...","toponymName":"Taipei","fcodeName":"capital of a political entity","wikipedia":"de.wikipedia.org/wiki/Taipei","lat":25.047763,"fcl":"P","population":7871900,"fcode":"PPLC"},{"lng":-74.08175468444824,"geonameId":3688689,"countrycode":"CO","name":"Bogotá","fclName":"city, village,...","toponymName":"Bogotá","fcodeName":"capital of a political entity","wikipedia":"en.wikipedia.org/wiki/Bogot%C3%A1","lat":4.609705849789108,"fcl":"P","population":7674366,"fcode":"PPLC"},{"lng":114.17469,"geonameId":1819729,"countrycode":"HK","name":"Hongkong","fclName":"city, village,...","toponymName":"Hong Kong","fcodeName":"capital of a political entity","wikipedia":"en.wikipedia.org/wiki/Hong_Kong","lat":22.27832,"fcl":"P","population":7012738,"fcode":"PPLC"},{"lng":100.501444,"geonameId":1609350,"countrycode":"TH","name":"Bangkok","fclName":"city, village,...","toponymName":"Bangkok","fcodeName":"capital of a political entity","wikipedia":"en.wikipedia.org/wiki/Bangkok","lat":13.753979,"fcl":"P","population":5104476,"fcode":"PPLC"}]}
+
+15:22:56.543 [main] DEBUG com.intuit.karate - response time in milliseconds: 1479
+15:22:56.637 [main] INFO  com.intuit.karate - [print] response: {
+  "geonames": [
+    {
+      "lng": -99.12766456604,
+      "geonameId": 3530597,
+      "countrycode": "MX",
+      "name": "Mexiko-Stadt",
+      "fclName": "city, village,...",
+      "toponymName": "Mexico City",
+      "fcodeName": "capital of a political entity",
+      "wikipedia": "en.wikipedia.org/wiki/Mexico_City",
+      "lat": 19.428472427036,
+      "fcl": "P",
+      "population": 12294193,
+      "fcode": "PPLC"
+    },
+    {
+      "lng": 116.397228240967,
+      "geonameId": 1816670,
+      "countrycode": "CN",
+      "name": "Peking",
+      "fclName": "city, village,...",
+      "toponymName": "Beijing",
+      "fcodeName": "capital of a political entity",
+      "wikipedia": "en.wikipedia.org/wiki/Beijing",
+      "lat": 39.9074977414405,
+      "fcl": "P",
+      "population": 11716620,
+      "fcode": "PPLC"
+    },
+    {
+      "lng": 90.40743827819824,
+      "geonameId": 1185241,
+      "countrycode": "BD",
+      "name": "Dhaka",
+      "fclName": "city, village,...",
+      "toponymName": "Dhaka",
+      "fcodeName": "capital of a political entity",
+      "wikipedia": "en.wikipedia.org/wiki/Dhaka",
+      "lat": 23.710395616597037,
+      "fcl": "P",
+      "population": 10356500,
+      "fcode": "PPLC"
+    },
+    {
+      "lng": 126.9784,
+      "geonameId": 1835848,
+      "countrycode": "KR",
+      "name": "Seoul",
+      "fclName": "city, village,...",
+      "toponymName": "Seoul",
+      "fcodeName": "capital of a political entity",
+      "wikipedia": "en.wikipedia.org/wiki/Seoul",
+      "lat": 37.566,
+      "fcl": "P",
+      "population": 10349312,
+      "fcode": "PPLC"
+    },
+    {
+      "lng": 106.84513092041016,
+      "geonameId": 1642911,
+      "countrycode": "ID",
+      "name": "Jakarta",
+      "fclName": "city, village,...",
+      "toponymName": "Jakarta",
+      "fcodeName": "capital of a political entity",
+      "wikipedia": "en.wikipedia.org/wiki/Jakarta",
+      "lat": -6.214623197035775,
+      "fcl": "P",
+      "population": 8540121,
+      "fcode": "PPLC"
+    },
+    {
+      "lng": 139.69171,
+      "geonameId": 1850147,
+      "countrycode": "JP",
+      "name": "Tokio",
+      "fclName": "city, village,...",
+      "toponymName": "Tokyo",
+      "fcodeName": "capital of a political entity",
+      "wikipedia": "de.wikipedia.org/wiki/Tokyo",
+      "lat": 35.6895,
+      "fcl": "P",
+      "population": 8336599,
+      "fcode": "PPLC"
+    },
+    {
+      "lng": 121.531846,
+      "geonameId": 1668341,
+      "countrycode": "TW",
+      "name": "Taipeh",
+      "fclName": "city, village,...",
+      "toponymName": "Taipei",
+      "fcodeName": "capital of a political entity",
+      "wikipedia": "de.wikipedia.org/wiki/Taipei",
+      "lat": 25.047763,
+      "fcl": "P",
+      "population": 7871900,
+      "fcode": "PPLC"
+    },
+    {
+      "lng": -74.08175468444824,
+      "geonameId": 3688689,
+      "countrycode": "CO",
+      "name": "Bogotá",
+      "fclName": "city, village,...",
+      "toponymName": "Bogotá",
+      "fcodeName": "capital of a political entity",
+      "wikipedia": "en.wikipedia.org/wiki/Bogot%C3%A1",
+      "lat": 4.609705849789108,
+      "fcl": "P",
+      "population": 7674366,
+      "fcode": "PPLC"
+    },
+    {
+      "lng": 114.17469,
+      "geonameId": 1819729,
+      "countrycode": "HK",
+      "name": "Hongkong",
+      "fclName": "city, village,...",
+      "toponymName": "Hong Kong",
+      "fcodeName": "capital of a political entity",
+      "wikipedia": "en.wikipedia.org/wiki/Hong_Kong",
+      "lat": 22.27832,
+      "fcl": "P",
+      "population": 7012738,
+      "fcode": "PPLC"
+    },
+    {
+      "lng": 100.501444,
+      "geonameId": 1609350,
+      "countrycode": "TH",
+      "name": "Bangkok",
+      "fclName": "city, village,...",
+      "toponymName": "Bangkok",
+      "fcodeName": "capital of a political entity",
+      "wikipedia": "en.wikipedia.org/wiki/Bangkok",
+      "lat": 13.753979,
+      "fcl": "P",
+      "population": 5104476,
+      "fcode": "PPLC"
+    }
+  ]
+}
+
+15:22:56.664 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:22:56.695 [main] DEBUG com.intuit.karate - 
+1 > GET https://secure.geonames.org/citiesJSON?north=44.1&south=-9.9&east=-22.4&west=55.2&lang=de&username=ozzie100
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: secure.geonames.org
+1 > User-Agent: Apache-HttpClient/4.5.4 (Java/1.8.0_151)
+
+15:22:59.057 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Cache-Control: no-cache
+1 < Connection: Keep-Alive
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Fri, 04 May 2018 15:22:57 GMT
+1 < Keep-Alive: timeout=5, max=100
+1 < Server: Apache/2.4.6 (CentOS) mod_jk/1.2.41 OpenSSL/1.0.1e-fips
+1 < Transfer-Encoding: chunked
+{"geonames":[{"lng":-99.12766456604,"geonameId":3530597,"countrycode":"MX","name":"Mexiko-Stadt","fclName":"city, village,...","toponymName":"Mexico City","fcodeName":"capital of a political entity","wikipedia":"en.wikipedia.org/wiki/Mexico_City","lat":19.428472427036,"fcl":"P","population":12294193,"fcode":"PPLC"},{"lng":116.397228240967,"geonameId":1816670,"countrycode":"CN","name":"Peking","fclName":"city, village,...","toponymName":"Beijing","fcodeName":"capital of a political entity","wikipedia":"en.wikipedia.org/wiki/Beijing","lat":39.9074977414405,"fcl":"P","population":11716620,"fcode":"PPLC"},{"lng":90.40743827819824,"geonameId":1185241,"countrycode":"BD","name":"Dhaka","fclName":"city, village,...","toponymName":"Dhaka","fcodeName":"capital of a political entity","wikipedia":"en.wikipedia.org/wiki/Dhaka","lat":23.710395616597037,"fcl":"P","population":10356500,"fcode":"PPLC"},{"lng":126.9784,"geonameId":1835848,"countrycode":"KR","name":"Seoul","fclName":"city, village,...","toponymName":"Seoul","fcodeName":"capital of a political entity","wikipedia":"en.wikipedia.org/wiki/Seoul","lat":37.566,"fcl":"P","population":10349312,"fcode":"PPLC"},{"lng":106.84513092041016,"geonameId":1642911,"countrycode":"ID","name":"Jakarta","fclName":"city, village,...","toponymName":"Jakarta","fcodeName":"capital of a political entity","wikipedia":"en.wikipedia.org/wiki/Jakarta","lat":-6.214623197035775,"fcl":"P","population":8540121,"fcode":"PPLC"},{"lng":139.69171,"geonameId":1850147,"countrycode":"JP","name":"Tokio","fclName":"city, village,...","toponymName":"Tokyo","fcodeName":"capital of a political entity","wikipedia":"de.wikipedia.org/wiki/Tokyo","lat":35.6895,"fcl":"P","population":8336599,"fcode":"PPLC"},{"lng":121.531846,"geonameId":1668341,"countrycode":"TW","name":"Taipeh","fclName":"city, village,...","toponymName":"Taipei","fcodeName":"capital of a political entity","wikipedia":"de.wikipedia.org/wiki/Taipei","lat":25.047763,"fcl":"P","population":7871900,"fcode":"PPLC"},{"lng":-74.08175468444824,"geonameId":3688689,"countrycode":"CO","name":"Bogotá","fclName":"city, village,...","toponymName":"Bogotá","fcodeName":"capital of a political entity","wikipedia":"en.wikipedia.org/wiki/Bogot%C3%A1","lat":4.609705849789108,"fcl":"P","population":7674366,"fcode":"PPLC"},{"lng":114.17469,"geonameId":1819729,"countrycode":"HK","name":"Hongkong","fclName":"city, village,...","toponymName":"Hong Kong","fcodeName":"capital of a political entity","wikipedia":"en.wikipedia.org/wiki/Hong_Kong","lat":22.27832,"fcl":"P","population":7012738,"fcode":"PPLC"},{"lng":100.501444,"geonameId":1609350,"countrycode":"TH","name":"Bangkok","fclName":"city, village,...","toponymName":"Bangkok","fcodeName":"capital of a political entity","wikipedia":"en.wikipedia.org/wiki/Bangkok","lat":13.753979,"fcl":"P","population":5104476,"fcode":"PPLC"}]}
+
+15:22:59.058 [main] DEBUG com.intuit.karate - response time in milliseconds: 2365
+15:22:59.063 [main] INFO  com.intuit.karate - [print] response: {
+  "geonames": [
+    {
+      "lng": -99.12766456604,
+      "geonameId": 3530597,
+      "countrycode": "MX",
+      "name": "Mexiko-Stadt",
+      "fclName": "city, village,...",
+      "toponymName": "Mexico City",
+      "fcodeName": "capital of a political entity",
+      "wikipedia": "en.wikipedia.org/wiki/Mexico_City",
+      "lat": 19.428472427036,
+      "fcl": "P",
+      "population": 12294193,
+      "fcode": "PPLC"
+    },
+    {
+      "lng": 116.397228240967,
+      "geonameId": 1816670,
+      "countrycode": "CN",
+      "name": "Peking",
+      "fclName": "city, village,...",
+      "toponymName": "Beijing",
+      "fcodeName": "capital of a political entity",
+      "wikipedia": "en.wikipedia.org/wiki/Beijing",
+      "lat": 39.9074977414405,
+      "fcl": "P",
+      "population": 11716620,
+      "fcode": "PPLC"
+    },
+    {
+      "lng": 90.40743827819824,
+      "geonameId": 1185241,
+      "countrycode": "BD",
+      "name": "Dhaka",
+      "fclName": "city, village,...",
+      "toponymName": "Dhaka",
+      "fcodeName": "capital of a political entity",
+      "wikipedia": "en.wikipedia.org/wiki/Dhaka",
+      "lat": 23.710395616597037,
+      "fcl": "P",
+      "population": 10356500,
+      "fcode": "PPLC"
+    },
+    {
+      "lng": 126.9784,
+      "geonameId": 1835848,
+      "countrycode": "KR",
+      "name": "Seoul",
+      "fclName": "city, village,...",
+      "toponymName": "Seoul",
+      "fcodeName": "capital of a political entity",
+      "wikipedia": "en.wikipedia.org/wiki/Seoul",
+      "lat": 37.566,
+      "fcl": "P",
+      "population": 10349312,
+      "fcode": "PPLC"
+    },
+    {
+      "lng": 106.84513092041016,
+      "geonameId": 1642911,
+      "countrycode": "ID",
+      "name": "Jakarta",
+      "fclName": "city, village,...",
+      "toponymName": "Jakarta",
+      "fcodeName": "capital of a political entity",
+      "wikipedia": "en.wikipedia.org/wiki/Jakarta",
+      "lat": -6.214623197035775,
+      "fcl": "P",
+      "population": 8540121,
+      "fcode": "PPLC"
+    },
+    {
+      "lng": 139.69171,
+      "geonameId": 1850147,
+      "countrycode": "JP",
+      "name": "Tokio",
+      "fclName": "city, village,...",
+      "toponymName": "Tokyo",
+      "fcodeName": "capital of a political entity",
+      "wikipedia": "de.wikipedia.org/wiki/Tokyo",
+      "lat": 35.6895,
+      "fcl": "P",
+      "population": 8336599,
+      "fcode": "PPLC"
+    },
+    {
+      "lng": 121.531846,
+      "geonameId": 1668341,
+      "countrycode": "TW",
+      "name": "Taipeh",
+      "fclName": "city, village,...",
+      "toponymName": "Taipei",
+      "fcodeName": "capital of a political entity",
+      "wikipedia": "de.wikipedia.org/wiki/Taipei",
+      "lat": 25.047763,
+      "fcl": "P",
+      "population": 7871900,
+      "fcode": "PPLC"
+    },
+    {
+      "lng": -74.08175468444824,
+      "geonameId": 3688689,
+      "countrycode": "CO",
+      "name": "Bogotá",
+      "fclName": "city, village,...",
+      "toponymName": "Bogotá",
+      "fcodeName": "capital of a political entity",
+      "wikipedia": "en.wikipedia.org/wiki/Bogot%C3%A1",
+      "lat": 4.609705849789108,
+      "fcl": "P",
+      "population": 7674366,
+      "fcode": "PPLC"
+    },
+    {
+      "lng": 114.17469,
+      "geonameId": 1819729,
+      "countrycode": "HK",
+      "name": "Hongkong",
+      "fclName": "city, village,...",
+      "toponymName": "Hong Kong",
+      "fcodeName": "capital of a political entity",
+      "wikipedia": "en.wikipedia.org/wiki/Hong_Kong",
+      "lat": 22.27832,
+      "fcl": "P",
+      "population": 7012738,
+      "fcode": "PPLC"
+    },
+    {
+      "lng": 100.501444,
+      "geonameId": 1609350,
+      "countrycode": "TH",
+      "name": "Bangkok",
+      "fclName": "city, village,...",
+      "toponymName": "Bangkok",
+      "fcodeName": "capital of a political entity",
+      "wikipedia": "en.wikipedia.org/wiki/Bangkok",
+      "lat": 13.753979,
+      "fcl": "P",
+      "population": 5104476,
+      "fcode": "PPLC"
+    }
+  ]
+}
+
+15:22:59.088 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:22:59.123 [main] DEBUG com.intuit.karate - 
+1 > GET http://api.geonames.org/oceanJSON?lat=19.8968&lng=155.5828&username=ozzie100&lang=de
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: api.geonames.org
+1 > User-Agent: Apache-HttpClient/4.5.4 (Java/1.8.0_151)
+
+15:23:01.088 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Cache-Control: no-cache
+1 < Connection: Keep-Alive
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Fri, 04 May 2018 15:22:58 GMT
+1 < Keep-Alive: timeout=5, max=100
+1 < Server: Apache/2.4.6 (CentOS) mod_jk/1.2.41 OpenSSL/1.0.1e-fips
+1 < Transfer-Encoding: chunked
+{"ocean":{"name":"North Pacific Ocean"}}
+
+15:23:01.089 [main] DEBUG com.intuit.karate - response time in milliseconds: 1968
+15:23:01.109 [main] ERROR com.intuit.karate - assertion failed: assert evaluated to false: responseTime < 1000
+15:23:01.132 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:23:01.167 [main] DEBUG com.intuit.karate - 
+1 > GET http://api.geonames.org/findNearbyPOIsOSMJSON?lat=37.451&lng=-122.18&username=ozzie100
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: api.geonames.org
+1 > User-Agent: Apache-HttpClient/4.5.4 (Java/1.8.0_151)
+
+15:23:10.659 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Cache-Control: no-cache
+1 < Connection: Keep-Alive
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Fri, 04 May 2018 15:23:01 GMT
+1 < Keep-Alive: timeout=5, max=100
+1 < Server: Apache/2.4.6 (CentOS) mod_jk/1.2.41 OpenSSL/1.0.1e-fips
+1 < Transfer-Encoding: chunked
+{"poi":[{"lng":"-122.18023","distance":"0.04","name":"","typeClass":"amenity","typeName":"fire_hydrant","lat":"37.45131"},{"lng":"-122.1809","distance":"0.08","name":"","typeClass":"amenity","typeName":"fire_hydrant","lat":"37.45079"},{"lng":"-122.17984","distance":"0.09","name":"","typeClass":"amenity","typeName":"fire_hydrant","lat":"37.45176"},{"lng":"-122.18006","distance":"0.1","name":"Jenny Craig Weight Loss","typeClass":"shop","typeName":"yes","lat":"37.45189"},{"lng":"-122.18012","distance":"0.1","name":"","typeClass":"amenity","typeName":"school","lat":"37.45192"},{"lng":"-122.18022","distance":"0.11","name":"","typeClass":"amenity","typeName":"bicycle_parking","lat":"37.45195"},{"lng":"-122.1802","distance":"0.11","name":"","typeClass":"amenity","typeName":"bench","lat":"37.45197"},{"lng":"-122.18048","distance":"0.12","name":"PKS Cleaners","typeClass":"shop","typeName":"dry_cleaning","lat":"37.45198"},{"lng":"-122.18034","distance":"0.12","name":"Starbucks","typeClass":"amenity","typeName":"cafe","lat":"37.45206"},{"lng":"-122.18035","distance":"0.12","name":"","typeClass":"amenity","typeName":"bench","lat":"37.45207"}]}
+
+15:23:10.661 [main] DEBUG com.intuit.karate - response time in milliseconds: 9497
+15:23:10.682 [main] INFO  com.intuit.karate - [print] response: {
+  "poi": [
+    {
+      "lng": "-122.18023",
+      "distance": "0.04",
+      "name": "",
+      "typeClass": "amenity",
+      "typeName": "fire_hydrant",
+      "lat": "37.45131"
+    },
+    {
+      "lng": "-122.1809",
+      "distance": "0.08",
+      "name": "",
+      "typeClass": "amenity",
+      "typeName": "fire_hydrant",
+      "lat": "37.45079"
+    },
+    {
+      "lng": "-122.17984",
+      "distance": "0.09",
+      "name": "",
+      "typeClass": "amenity",
+      "typeName": "fire_hydrant",
+      "lat": "37.45176"
+    },
+    {
+      "lng": "-122.18006",
+      "distance": "0.1",
+      "name": "Jenny Craig Weight Loss",
+      "typeClass": "shop",
+      "typeName": "yes",
+      "lat": "37.45189"
+    },
+    {
+      "lng": "-122.18012",
+      "distance": "0.1",
+      "name": "",
+      "typeClass": "amenity",
+      "typeName": "school",
+      "lat": "37.45192"
+    },
+    {
+      "lng": "-122.18022",
+      "distance": "0.11",
+      "name": "",
+      "typeClass": "amenity",
+      "typeName": "bicycle_parking",
+      "lat": "37.45195"
+    },
+    {
+      "lng": "-122.1802",
+      "distance": "0.11",
+      "name": "",
+      "typeClass": "amenity",
+      "typeName": "bench",
+      "lat": "37.45197"
+    },
+    {
+      "lng": "-122.18048",
+      "distance": "0.12",
+      "name": "PKS Cleaners",
+      "typeClass": "shop",
+      "typeName": "dry_cleaning",
+      "lat": "37.45198"
+    },
+    {
+      "lng": "-122.18034",
+      "distance": "0.12",
+      "name": "Starbucks",
+      "typeClass": "amenity",
+      "typeName": "cafe",
+      "lat": "37.45206"
+    },
+    {
+      "lng": "-122.18035",
+      "distance": "0.12",
+      "name": "",
+      "typeClass": "amenity",
+      "typeName": "bench",
+      "lat": "37.45207"
+    }
+  ]
+}
+
+15:23:10.713 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:23:10.740 [main] DEBUG com.intuit.karate - 
+1 > GET http://api.geonames.org/weather?north=44.1&south=-9.9&east=-22.4&west=55.2&username=ozzie100
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: api.geonames.org
+1 > User-Agent: Apache-HttpClient/4.5.4 (Java/1.8.0_151)
+
+15:23:12.470 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Cache-Control: no-cache
+1 < Connection: Keep-Alive
+1 < Content-Type: text/xml;charset=UTF-8
+1 < Date: Fri, 04 May 2018 15:23:09 GMT
+1 < Keep-Alive: timeout=5, max=100
+1 < Server: Apache/2.4.6 (CentOS) mod_jk/1.2.41 OpenSSL/1.0.1e-fips
+1 < Transfer-Encoding: chunked
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<geonames>
+<observation>
+<observation>K2I0 041515Z AUTO 25011G16KT 10SM OVC030 25/18 A3004 RMK AO2 T02490184</observation>
+<observationTime>2018-05-04 15:15:00</observationTime>
+<stationName>MADISONVILLE</stationName>
+<ICAO>K2I0</ICAO>
+<countryCode/>
+<elevation>0</elevation>
+<lat>37.35</lat>
+<lng>-87.4</lng>
+<temperature>24.9</temperature>
+<dewPoint>18.4</dewPoint>
+<humidity>67</humidity>
+<clouds code="OVC">overcast</clouds>
+<weatherCondition>n/a</weatherCondition>
+<windDirection>250.0</windDirection>
+<windSpeed>11</windSpeed>
+</observation>
+<observation>
+<observation>K2J9 041515Z AUTO 20003KT 10SM CLR 25/17 A3019 RMK AO2</observation>
+<observationTime>2018-05-04 15:15:00</observationTime>
+<stationName>QUINCY</stationName>
+<ICAO>K2J9</ICAO>
+<countryCode/>
+<elevation>0</elevation>
+<lat>30.6</lat>
+<lng>-84.55</lng>
+<temperature>25</temperature>
+<dewPoint>17</dewPoint>
+<humidity>61</humidity>
+<clouds>n/a</clouds>
+<weatherCondition>n/a</weatherCondition>
+<windDirection>200.0</windDirection>
+<windSpeed>03</windSpeed>
+</observation>
+<observation>
+<observation>K2V5 041515Z AUTO 32008KT 10SM CLR 17/07 A3027 RMK AO2</observation>
+<observationTime>2018-05-04 15:15:00</observationTime>
+<stationName>WRAY</stationName>
+<ICAO>K2V5</ICAO>
+<countryCode/>
+<elevation>0</elevation>
+<lat>40.1</lat>
+<lng>-102.23333333333333</lng>
+<temperature>17</temperature>
+<dewPoint>7</dewPoint>
+<humidity>51</humidity>
+<clouds>n/a</clouds>
+<weatherCondition>n/a</weatherCondition>
+<windDirection>320.0</windDirection>
+<windSpeed>08</windSpeed>
+</observation>
+<observation>
+<observation>K4A6 041515Z AUTO VRB06G13KT 10SM FEW042 24/18 A3018 RMK AO2</observation>
+<observationTime>2018-05-04 15:15:00</observationTime>
+<stationName>SCOTTSBORO</stationName>
+<ICAO>K4A6</ICAO>
+<countryCode/>
+<elevation>0</elevation>
+<lat>34.68333333333333</lat>
+<lng>-86.0</lng>
+<temperature>24</temperature>
+<dewPoint>18</dewPoint>
+<humidity>69</humidity>
+<clouds code="FEW">few clouds</clouds>
+<weatherCondition>n/a</weatherCondition>
+<windSpeed>06</windSpeed>
+</observation>
+<observation>
+<observation>K4M9 041515Z AUTO 22012KT 10SM FEW014 FEW019 23/23 A3003 RMK AO2 PWINO</observation>
+<observationTime>2018-05-04 15:15:00</observationTime>
+<stationName>CORNING</stationName>
+<ICAO>K4M9</ICAO>
+<countryCode/>
+<elevation>0</elevation>
+<lat>36.4</lat>
+<lng>-90.65</lng>
+<temperature>23</temperature>
+<dewPoint>23</dewPoint>
+<humidity>100</humidity>
+<clouds code="FEW">few clouds</clouds>
+<weatherCondition>n/a</weatherCondition>
+<windDirection>220.0</windDirection>
+<windSpeed>12</windSpeed>
+</observation>
+<observation>
+<observation>KAEJ 041515Z AUTO 33012G15KT 10SM CLR 10/M05 A3043 RMK AO2 T00961046</observation>
+<observationTime>2018-05-04 15:15:00</observationTime>
+<stationName>BUENA VISTA</stationName>
+<ICAO>KAEJ</ICAO>
+<countryCode/>
+<elevation>0</elevation>
+<lat>38.81666666666667</lat>
+<lng>-106.11666666666666</lng>
+<temperature>9.6</temperature>
+<dewPoint>-4.6</dewPoint>
+<humidity>36</humidity>
+<clouds>n/a</clouds>
+<weatherCondition>n/a</weatherCondition>
+<windDirection>330.0</windDirection>
+<windSpeed>12</windSpeed>
+</observation>
+<observation>
+<observation>KAIB 041515Z AUTO 33004KT 10SM CLR 08/00 A3044 RMK AO2</observation>
+<observationTime>2018-05-04 15:15:00</observationTime>
+<stationName>Hopkins Field</stationName>
+<ICAO>KAIB</ICAO>
+<countryCode/>
+<elevation>0</elevation>
+<lat>38.233333333333334</lat>
+<lng>-108.56666666666666</lng>
+<temperature>8</temperature>
+<dewPoint>0</dewPoint>
+<humidity>56</humidity>
+<clouds>n/a</clouds>
+<weatherCondition>n/a</weatherCondition>
+<windDirection>330.0</windDirection>
+<windSpeed>04</windSpeed>
+</observation>
+<observation>
+<observation>KAIK 041515Z AUTO 26006KT 10SM CLR 23/15 A3025 RMK AO2</observation>
+<observationTime>2018-05-04 15:15:00</observationTime>
+<stationName>AIKEN</stationName>
+<ICAO>KAIK</ICAO>
+<countryCode/>
+<elevation>0</elevation>
+<lat>33.65</lat>
+<lng>-81.68333333333334</lng>
+<temperature>23</temperature>
+<dewPoint>15</dewPoint>
+<humidity>60</humidity>
+<clouds>n/a</clouds>
+<weatherCondition>n/a</weatherCondition>
+<windDirection>260.0</windDirection>
+<windSpeed>06</windSpeed>
+</observation>
+<observation>
+<observation>KAJZ 041515Z AUTO 11003KT 10SM CLR 11/03 A3042 RMK AO2 T01100029</observation>
+<observationTime>2018-05-04 15:15:00</observationTime>
+<stationName>Blake Field</stationName>
+<ICAO>KAJZ</ICAO>
+<countryCode/>
+<elevation>0</elevation>
+<lat>38.78333333333333</lat>
+<lng>-108.06666666666666</lng>
+<temperature>11</temperature>
+<dewPoint>2.9</dewPoint>
+<humidity>57</humidity>
+<clouds>n/a</clouds>
+<weatherCondition>n/a</weatherCondition>
+<windDirection>110.0</windDirection>
+<windSpeed>03</windSpeed>
+</observation>
+<observation>
+<observation>KANK 041515Z AUTO 00000KT 10SM CLR 08/00 A3051 RMK AO1 T00751001</observation>
+<observationTime>2018-05-04 15:15:00</observationTime>
+<stationName>SALIDA</stationName>
+<ICAO>KANK</ICAO>
+<countryCode/>
+<elevation>0</elevation>
+<lat>38.53333333333333</lat>
+<lng>-106.05</lng>
+<temperature>7.5</temperature>
+<dewPoint>-0.1</dewPoint>
+<humidity>58</humidity>
+<clouds>n/a</clouds>
+<weatherCondition>n/a</weatherCondition>
+<windDirection>0.0</windDirection>
+<windSpeed>00</windSpeed>
+</observation>
+</geonames>
+
+
+15:23:12.471 [main] DEBUG com.intuit.karate - response time in milliseconds: 1733
+15:23:12.489 [main] ERROR com.intuit.karate - assertion failed: path: $.geonames.observation[*].stationName[*], actual: ["MADISONVILLE","QUINCY","WRAY","SCOTTSBORO","CORNING","BUENA VISTA","Hopkins Field","AIKEN","Blake Field","SALIDA"], expected: 'HALF MOON BAY', reason: actual value does not contain expected
+15:23:12.658 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:23:12.676 [main] DEBUG com.intuit.karate - 
+1 > GET https://api.cascade1.seed-innovations.net/api
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJrdWJlcm5ldGVzL3NlcnZpY2VhY2NvdW50Iiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9uYW1lc3BhY2UiOiJkZWZhdWx0Iiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9zZWNyZXQubmFtZSI6ImRlZmF1bHQtdG9rZW4tanZ3YnYiLCJrdWJlcm5ldGVzLmlvL3NlcnZpY2VhY2NvdW50L3NlcnZpY2UtYWNjb3VudC5uYW1lIjoiZGVmYXVsdCIsImt1YmVybmV0ZXMuaW8vc2VydmljZWFjY291bnQvc2VydmljZS1hY2NvdW50LnVpZCI6IjhkOTE5YzhiLTRiNTctMTFlOC05MGFkLTAyMDYzYTZlNzZkNCIsInN1YiI6InN5c3RlbTpzZXJ2aWNlYWNjb3VudDpkZWZhdWx0OmRlZmF1bHQifQ.ccs71NiWP9Nv_0urtt5tmebFNCXWopeR6yK9Jv8TEPuwUnM8x2dCyklEVL0qlZNQeodtOnRmRRiJGn-PKJud5Ptef_Q3pYMKWFjUeKSFstD59XLNpEEc_gWjS6X3xmFO4Zvrovh3Xd2iwwYtybRUjDWvqdAPCdjPHBbYjF6N-NMr2dv2O-lnXen3MpVX6_huCRqpYyVvWT4Ju9czMfrQD8EtKaeokIy41NxdA0vC9kDbO3d2czqgGAWU2oSa_cOmJhtp8I85IM1-XEXDWvukfhk7TFgrsXuGSxfpY_lE0QXQvXZaftuURUkPpEEplzQPB-SK3JxDUFeeGhkt3WRDrA
+1 > Connection: Keep-Alive
+1 > Host: api.cascade1.seed-innovations.net
+1 > User-Agent: Apache-HttpClient/4.5.4 (Java/1.8.0_151)
+
+15:23:13.466 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Content-Length: 132
+1 < Content-Type: application/json
+1 < Date: Fri, 04 May 2018 15:23:11 GMT
+{"kind":"APIVersions","versions":["v1"],"serverAddressByClientCIDRs":[{"clientCIDR":"0.0.0.0/0","serverAddress":"18.188.211.201"}]}
+
+
+15:23:13.468 [main] DEBUG com.intuit.karate - response time in milliseconds: 795
+15:23:13.470 [main] INFO  com.intuit.karate - [print] response: {
+  "kind": "APIVersions",
+  "versions": [
+    "v1"
+  ],
+  "serverAddressByClientCIDRs": [
+    {
+      "clientCIDR": "0.0.0.0/0",
+      "serverAddress": "18.188.211.201"
+    }
+  ]
+}
+
+15:23:13.479 [main] DEBUG com.intuit.karate - 
+2 > GET https://api.cascade1.seed-innovations.net/api/v1
+2 > Accept-Encoding: gzip,deflate
+2 > Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJrdWJlcm5ldGVzL3NlcnZpY2VhY2NvdW50Iiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9uYW1lc3BhY2UiOiJkZWZhdWx0Iiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9zZWNyZXQubmFtZSI6ImRlZmF1bHQtdG9rZW4tanZ3YnYiLCJrdWJlcm5ldGVzLmlvL3NlcnZpY2VhY2NvdW50L3NlcnZpY2UtYWNjb3VudC5uYW1lIjoiZGVmYXVsdCIsImt1YmVybmV0ZXMuaW8vc2VydmljZWFjY291bnQvc2VydmljZS1hY2NvdW50LnVpZCI6IjhkOTE5YzhiLTRiNTctMTFlOC05MGFkLTAyMDYzYTZlNzZkNCIsInN1YiI6InN5c3RlbTpzZXJ2aWNlYWNjb3VudDpkZWZhdWx0OmRlZmF1bHQifQ.ccs71NiWP9Nv_0urtt5tmebFNCXWopeR6yK9Jv8TEPuwUnM8x2dCyklEVL0qlZNQeodtOnRmRRiJGn-PKJud5Ptef_Q3pYMKWFjUeKSFstD59XLNpEEc_gWjS6X3xmFO4Zvrovh3Xd2iwwYtybRUjDWvqdAPCdjPHBbYjF6N-NMr2dv2O-lnXen3MpVX6_huCRqpYyVvWT4Ju9czMfrQD8EtKaeokIy41NxdA0vC9kDbO3d2czqgGAWU2oSa_cOmJhtp8I85IM1-XEXDWvukfhk7TFgrsXuGSxfpY_lE0QXQvXZaftuURUkPpEEplzQPB-SK3JxDUFeeGhkt3WRDrA
+2 > Connection: Keep-Alive
+2 > Host: api.cascade1.seed-innovations.net
+2 > User-Agent: Apache-HttpClient/4.5.4 (Java/1.8.0_151)
+
+15:23:14.420 [main] DEBUG com.intuit.karate - 
+2 < 200
+2 < Content-Type: application/json
+2 < Date: Fri, 04 May 2018 15:23:12 GMT
+2 < Transfer-Encoding: chunked
+{"kind":"APIResourceList","groupVersion":"v1","resources":[{"name":"bindings","singularName":"","namespaced":true,"kind":"Binding","verbs":["create"]},{"name":"componentstatuses","singularName":"","namespaced":false,"kind":"ComponentStatus","verbs":["get","list"],"shortNames":["cs"]},{"name":"configmaps","singularName":"","namespaced":true,"kind":"ConfigMap","verbs":["create","delete","deletecollection","get","list","patch","update","watch"],"shortNames":["cm"]},{"name":"endpoints","singularName":"","namespaced":true,"kind":"Endpoints","verbs":["create","delete","deletecollection","get","list","patch","update","watch"],"shortNames":["ep"]},{"name":"events","singularName":"","namespaced":true,"kind":"Event","verbs":["create","delete","deletecollection","get","list","patch","update","watch"],"shortNames":["ev"]},{"name":"limitranges","singularName":"","namespaced":true,"kind":"LimitRange","verbs":["create","delete","deletecollection","get","list","patch","update","watch"],"shortNames":["limits"]},{"name":"namespaces","singularName":"","namespaced":false,"kind":"Namespace","verbs":["create","delete","get","list","patch","update","watch"],"shortNames":["ns"]},{"name":"namespaces/finalize","singularName":"","namespaced":false,"kind":"Namespace","verbs":["update"]},{"name":"namespaces/status","singularName":"","namespaced":false,"kind":"Namespace","verbs":["get","patch","update"]},{"name":"nodes","singularName":"","namespaced":false,"kind":"Node","verbs":["create","delete","deletecollection","get","list","patch","proxy","update","watch"],"shortNames":["no"]},{"name":"nodes/proxy","singularName":"","namespaced":false,"kind":"Node","verbs":[]},{"name":"nodes/status","singularName":"","namespaced":false,"kind":"Node","verbs":["get","patch","update"]},{"name":"persistentvolumeclaims","singularName":"","namespaced":true,"kind":"PersistentVolumeClaim","verbs":["create","delete","deletecollection","get","list","patch","update","watch"],"shortNames":["pvc"]},{"name":"persistentvolumeclaims/status","singularName":"","namespaced":true,"kind":"PersistentVolumeClaim","verbs":["get","patch","update"]},{"name":"persistentvolumes","singularName":"","namespaced":false,"kind":"PersistentVolume","verbs":["create","delete","deletecollection","get","list","patch","update","watch"],"shortNames":["pv"]},{"name":"persistentvolumes/status","singularName":"","namespaced":false,"kind":"PersistentVolume","verbs":["get","patch","update"]},{"name":"pods","singularName":"","namespaced":true,"kind":"Pod","verbs":["create","delete","deletecollection","get","list","patch","proxy","update","watch"],"shortNames":["po"],"categories":["all"]},{"name":"pods/attach","singularName":"","namespaced":true,"kind":"Pod","verbs":[]},{"name":"pods/binding","singularName":"","namespaced":true,"kind":"Binding","verbs":["create"]},{"name":"pods/eviction","singularName":"","namespaced":true,"group":"policy","version":"v1beta1","kind":"Eviction","verbs":["create"]},{"name":"pods/exec","singularName":"","namespaced":true,"kind":"Pod","verbs":[]},{"name":"pods/log","singularName":"","namespaced":true,"kind":"Pod","verbs":["get"]},{"name":"pods/portforward","singularName":"","namespaced":true,"kind":"Pod","verbs":[]},{"name":"pods/proxy","singularName":"","namespaced":true,"kind":"Pod","verbs":[]},{"name":"pods/status","singularName":"","namespaced":true,"kind":"Pod","verbs":["get","patch","update"]},{"name":"podtemplates","singularName":"","namespaced":true,"kind":"PodTemplate","verbs":["create","delete","deletecollection","get","list","patch","update","watch"]},{"name":"replicationcontrollers","singularName":"","namespaced":true,"kind":"ReplicationController","verbs":["create","delete","deletecollection","get","list","patch","update","watch"],"shortNames":["rc"],"categories":["all"]},{"name":"replicationcontrollers/scale","singularName":"","namespaced":true,"group":"autoscaling","version":"v1","kind":"Scale","verbs":["get","patch","update"]},{"name":"replicationcontrollers/status","singularName":"","namespaced":true,"kind":"ReplicationController","verbs":["get","patch","update"]},{"name":"resourcequotas","singularName":"","namespaced":true,"kind":"ResourceQuota","verbs":["create","delete","deletecollection","get","list","patch","update","watch"],"shortNames":["quota"]},{"name":"resourcequotas/status","singularName":"","namespaced":true,"kind":"ResourceQuota","verbs":["get","patch","update"]},{"name":"secrets","singularName":"","namespaced":true,"kind":"Secret","verbs":["create","delete","deletecollection","get","list","patch","update","watch"]},{"name":"serviceaccounts","singularName":"","namespaced":true,"kind":"ServiceAccount","verbs":["create","delete","deletecollection","get","list","patch","update","watch"],"shortNames":["sa"]},{"name":"services","singularName":"","namespaced":true,"kind":"Service","verbs":["create","delete","get","list","patch","proxy","update","watch"],"shortNames":["svc"],"categories":["all"]},{"name":"services/proxy","singularName":"","namespaced":true,"kind":"Service","verbs":[]},{"name":"services/status","singularName":"","namespaced":true,"kind":"Service","verbs":["get","patch","update"]}]}
+
+
+15:23:14.422 [main] DEBUG com.intuit.karate - response time in milliseconds: 945
+15:23:14.425 [main] INFO  com.intuit.karate - [print] response: {
+  "kind": "APIResourceList",
+  "groupVersion": "v1",
+  "resources": [
+    {
+      "name": "bindings",
+      "singularName": "",
+      "namespaced": true,
+      "kind": "Binding",
+      "verbs": [
+        "create"
+      ]
+    },
+    {
+      "name": "componentstatuses",
+      "singularName": "",
+      "namespaced": false,
+      "kind": "ComponentStatus",
+      "verbs": [
+        "get",
+        "list"
+      ],
+      "shortNames": [
+        "cs"
+      ]
+    },
+    {
+      "name": "configmaps",
+      "singularName": "",
+      "namespaced": true,
+      "kind": "ConfigMap",
+      "verbs": [
+        "create",
+        "delete",
+        "deletecollection",
+        "get",
+        "list",
+        "patch",
+        "update",
+        "watch"
+      ],
+      "shortNames": [
+        "cm"
+      ]
+    },
+    {
+      "name": "endpoints",
+      "singularName": "",
+      "namespaced": true,
+      "kind": "Endpoints",
+      "verbs": [
+        "create",
+        "delete",
+        "deletecollection",
+        "get",
+        "list",
+        "patch",
+        "update",
+        "watch"
+      ],
+      "shortNames": [
+        "ep"
+      ]
+    },
+    {
+      "name": "events",
+      "singularName": "",
+      "namespaced": true,
+      "kind": "Event",
+      "verbs": [
+        "create",
+        "delete",
+        "deletecollection",
+        "get",
+        "list",
+        "patch",
+        "update",
+        "watch"
+      ],
+      "shortNames": [
+        "ev"
+      ]
+    },
+    {
+      "name": "limitranges",
+      "singularName": "",
+      "namespaced": true,
+      "kind": "LimitRange",
+      "verbs": [
+        "create",
+        "delete",
+        "deletecollection",
+        "get",
+        "list",
+        "patch",
+        "update",
+        "watch"
+      ],
+      "shortNames": [
+        "limits"
+      ]
+    },
+    {
+      "name": "namespaces",
+      "singularName": "",
+      "namespaced": false,
+      "kind": "Namespace",
+      "verbs": [
+        "create",
+        "delete",
+        "get",
+        "list",
+        "patch",
+        "update",
+        "watch"
+      ],
+      "shortNames": [
+        "ns"
+      ]
+    },
+    {
+      "name": "namespaces/finalize",
+      "singularName": "",
+      "namespaced": false,
+      "kind": "Namespace",
+      "verbs": [
+        "update"
+      ]
+    },
+    {
+      "name": "namespaces/status",
+      "singularName": "",
+      "namespaced": false,
+      "kind": "Namespace",
+      "verbs": [
+        "get",
+        "patch",
+        "update"
+      ]
+    },
+    {
+      "name": "nodes",
+      "singularName": "",
+      "namespaced": false,
+      "kind": "Node",
+      "verbs": [
+        "create",
+        "delete",
+        "deletecollection",
+        "get",
+        "list",
+        "patch",
+        "proxy",
+        "update",
+        "watch"
+      ],
+      "shortNames": [
+        "no"
+      ]
+    },
+    {
+      "name": "nodes/proxy",
+      "singularName": "",
+      "namespaced": false,
+      "kind": "Node",
+      "verbs": [
+      ]
+    },
+    {
+      "name": "nodes/status",
+      "singularName": "",
+      "namespaced": false,
+      "kind": "Node",
+      "verbs": [
+        "get",
+        "patch",
+        "update"
+      ]
+    },
+    {
+      "name": "persistentvolumeclaims",
+      "singularName": "",
+      "namespaced": true,
+      "kind": "PersistentVolumeClaim",
+      "verbs": [
+        "create",
+        "delete",
+        "deletecollection",
+        "get",
+        "list",
+        "patch",
+        "update",
+        "watch"
+      ],
+      "shortNames": [
+        "pvc"
+      ]
+    },
+    {
+      "name": "persistentvolumeclaims/status",
+      "singularName": "",
+      "namespaced": true,
+      "kind": "PersistentVolumeClaim",
+      "verbs": [
+        "get",
+        "patch",
+        "update"
+      ]
+    },
+    {
+      "name": "persistentvolumes",
+      "singularName": "",
+      "namespaced": false,
+      "kind": "PersistentVolume",
+      "verbs": [
+        "create",
+        "delete",
+        "deletecollection",
+        "get",
+        "list",
+        "patch",
+        "update",
+        "watch"
+      ],
+      "shortNames": [
+        "pv"
+      ]
+    },
+    {
+      "name": "persistentvolumes/status",
+      "singularName": "",
+      "namespaced": false,
+      "kind": "PersistentVolume",
+      "verbs": [
+        "get",
+        "patch",
+        "update"
+      ]
+    },
+    {
+      "name": "pods",
+      "singularName": "",
+      "namespaced": true,
+      "kind": "Pod",
+      "verbs": [
+        "create",
+        "delete",
+        "deletecollection",
+        "get",
+        "list",
+        "patch",
+        "proxy",
+        "update",
+        "watch"
+      ],
+      "shortNames": [
+        "po"
+      ],
+      "categories": [
+        "all"
+      ]
+    },
+    {
+      "name": "pods/attach",
+      "singularName": "",
+      "namespaced": true,
+      "kind": "Pod",
+      "verbs": [
+      ]
+    },
+    {
+      "name": "pods/binding",
+      "singularName": "",
+      "namespaced": true,
+      "kind": "Binding",
+      "verbs": [
+        "create"
+      ]
+    },
+    {
+      "name": "pods/eviction",
+      "singularName": "",
+      "namespaced": true,
+      "group": "policy",
+      "version": "v1beta1",
+      "kind": "Eviction",
+      "verbs": [
+        "create"
+      ]
+    },
+    {
+      "name": "pods/exec",
+      "singularName": "",
+      "namespaced": true,
+      "kind": "Pod",
+      "verbs": [
+      ]
+    },
+    {
+      "name": "pods/log",
+      "singularName": "",
+      "namespaced": true,
+      "kind": "Pod",
+      "verbs": [
+        "get"
+      ]
+    },
+    {
+      "name": "pods/portforward",
+      "singularName": "",
+      "namespaced": true,
+      "kind": "Pod",
+      "verbs": [
+      ]
+    },
+    {
+      "name": "pods/proxy",
+      "singularName": "",
+      "namespaced": true,
+      "kind": "Pod",
+      "verbs": [
+      ]
+    },
+    {
+      "name": "pods/status",
+      "singularName": "",
+      "namespaced": true,
+      "kind": "Pod",
+      "verbs": [
+        "get",
+        "patch",
+        "update"
+      ]
+    },
+    {
+      "name": "podtemplates",
+      "singularName": "",
+      "namespaced": true,
+      "kind": "PodTemplate",
+      "verbs": [
+        "create",
+        "delete",
+        "deletecollection",
+        "get",
+        "list",
+        "patch",
+        "update",
+        "watch"
+      ]
+    },
+    {
+      "name": "replicationcontrollers",
+      "singularName": "",
+      "namespaced": true,
+      "kind": "ReplicationController",
+      "verbs": [
+        "create",
+        "delete",
+        "deletecollection",
+        "get",
+        "list",
+        "patch",
+        "update",
+        "watch"
+      ],
+      "shortNames": [
+        "rc"
+      ],
+      "categories": [
+        "all"
+      ]
+    },
+    {
+      "name": "replicationcontrollers/scale",
+      "singularName": "",
+      "namespaced": true,
+      "group": "autoscaling",
+      "version": "v1",
+      "kind": "Scale",
+      "verbs": [
+        "get",
+        "patch",
+        "update"
+      ]
+    },
+    {
+      "name": "replicationcontrollers/status",
+      "singularName": "",
+      "namespaced": true,
+      "kind": "ReplicationController",
+      "verbs": [
+        "get",
+        "patch",
+        "update"
+      ]
+    },
+    {
+      "name": "resourcequotas",
+      "singularName": "",
+      "namespaced": true,
+      "kind": "ResourceQuota",
+      "verbs": [
+        "create",
+        "delete",
+        "deletecollection",
+        "get",
+        "list",
+        "patch",
+        "update",
+        "watch"
+      ],
+      "shortNames": [
+        "quota"
+      ]
+    },
+    {
+      "name": "resourcequotas/status",
+      "singularName": "",
+      "namespaced": true,
+      "kind": "ResourceQuota",
+      "verbs": [
+        "get",
+        "patch",
+        "update"
+      ]
+    },
+    {
+      "name": "secrets",
+      "singularName": "",
+      "namespaced": true,
+      "kind": "Secret",
+      "verbs": [
+        "create",
+        "delete",
+        "deletecollection",
+        "get",
+        "list",
+        "patch",
+        "update",
+        "watch"
+      ]
+    },
+    {
+      "name": "serviceaccounts",
+      "singularName": "",
+      "namespaced": true,
+      "kind": "ServiceAccount",
+      "verbs": [
+        "create",
+        "delete",
+        "deletecollection",
+        "get",
+        "list",
+        "patch",
+        "update",
+        "watch"
+      ],
+      "shortNames": [
+        "sa"
+      ]
+    },
+    {
+      "name": "services",
+      "singularName": "",
+      "namespaced": true,
+      "kind": "Service",
+      "verbs": [
+        "create",
+        "delete",
+        "get",
+        "list",
+        "patch",
+        "proxy",
+        "update",
+        "watch"
+      ],
+      "shortNames": [
+        "svc"
+      ],
+      "categories": [
+        "all"
+      ]
+    },
+    {
+      "name": "services/proxy",
+      "singularName": "",
+      "namespaced": true,
+      "kind": "Service",
+      "verbs": [
+      ]
+    },
+    {
+      "name": "services/status",
+      "singularName": "",
+      "namespaced": true,
+      "kind": "Service",
+      "verbs": [
+        "get",
+        "patch",
+        "update"
+      ]
+    }
+  ]
+}
+
+15:23:14.438 [main] DEBUG com.intuit.karate - 
+3 > GET https://api.cascade1.seed-innovations.net/api/v1/resources
+3 > Accept-Encoding: gzip,deflate
+3 > Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJrdWJlcm5ldGVzL3NlcnZpY2VhY2NvdW50Iiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9uYW1lc3BhY2UiOiJkZWZhdWx0Iiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9zZWNyZXQubmFtZSI6ImRlZmF1bHQtdG9rZW4tanZ3YnYiLCJrdWJlcm5ldGVzLmlvL3NlcnZpY2VhY2NvdW50L3NlcnZpY2UtYWNjb3VudC5uYW1lIjoiZGVmYXVsdCIsImt1YmVybmV0ZXMuaW8vc2VydmljZWFjY291bnQvc2VydmljZS1hY2NvdW50LnVpZCI6IjhkOTE5YzhiLTRiNTctMTFlOC05MGFkLTAyMDYzYTZlNzZkNCIsInN1YiI6InN5c3RlbTpzZXJ2aWNlYWNjb3VudDpkZWZhdWx0OmRlZmF1bHQifQ.ccs71NiWP9Nv_0urtt5tmebFNCXWopeR6yK9Jv8TEPuwUnM8x2dCyklEVL0qlZNQeodtOnRmRRiJGn-PKJud5Ptef_Q3pYMKWFjUeKSFstD59XLNpEEc_gWjS6X3xmFO4Zvrovh3Xd2iwwYtybRUjDWvqdAPCdjPHBbYjF6N-NMr2dv2O-lnXen3MpVX6_huCRqpYyVvWT4Ju9czMfrQD8EtKaeokIy41NxdA0vC9kDbO3d2czqgGAWU2oSa_cOmJhtp8I85IM1-XEXDWvukfhk7TFgrsXuGSxfpY_lE0QXQvXZaftuURUkPpEEplzQPB-SK3JxDUFeeGhkt3WRDrA
+3 > Connection: Keep-Alive
+3 > Host: api.cascade1.seed-innovations.net
+3 > User-Agent: Apache-HttpClient/4.5.4 (Java/1.8.0_151)
+
+15:23:15.086 [main] DEBUG com.intuit.karate - 
+3 < 403
+3 < Content-Length: 258
+3 < Content-Type: application/json
+3 < Date: Fri, 04 May 2018 15:23:13 GMT
+3 < X-Content-Type-Options: nosniff
+{"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"resources is forbidden: User \"system:serviceaccount:default:default\" cannot list resources at the cluster scope","reason":"Forbidden","details":{"kind":"resources"},"code":403}
+
+
+15:23:15.087 [main] DEBUG com.intuit.karate - response time in milliseconds: 651
+15:23:15.090 [main] INFO  com.intuit.karate - [print] response: {
+  "kind": "Status",
+  "apiVersion": "v1",
+  "metadata": {
+  },
+  "status": "Failure",
+  "message": "resources is forbidden: User \"system:serviceaccount:default:default\" cannot list resources at the cluster scope",
+  "reason": "Forbidden",
+  "details": {
+    "kind": "resources"
+  },
+  "code": 403
+}
+

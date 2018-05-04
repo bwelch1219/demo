@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="63" failures="0" name="demo.DemoTest" time="21.763" errors="4" skipped="2">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.151-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/usr/src/app"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/usr/src/app"/>
+    <property name="java.runtime.version" value="1.8.0_151-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-1.8-openjdk/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/server:/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64:/usr/lib/jvm/java-1.8-openjdk/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="maven.conf" value="/usr/share/maven/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="4.9.87-linuxkit-aufs"/>
+    <property name="library.jansi.path" value="/usr/share/maven/lib/jansi-native"/>
+    <property name="user.home" value="/root"/>
+    <property name="user.timezone" value="GMT"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="root"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="error"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/lib/jvm/java-1.8-openjdk/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -o -q -B"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_151"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-1.8-openjdk/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-1.8-openjdk/jre/lib/resources.jar:/usr/lib/jvm/java-1.8-openjdk/jre/lib/rt.jar:/usr/lib/jvm/java-1.8-openjdk/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-1.8-openjdk/jre/lib/jsse.jar:/usr/lib/jvm/java-1.8-openjdk/jre/lib/jce.jar:/usr/lib/jvm/java-1.8-openjdk/jre/lib/charsets.jar:/usr/lib/jvm/java-1.8-openjdk/jre/lib/jfr.jar:/usr/lib/jvm/java-1.8-openjdk/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="Scenario: First Test" name="Given url \&apos;http:\/\/api.geonames.org\/citiesJSON?north=44.1&amp;south=-9.9&amp;east=-22.4&amp;west=55.2&amp;lang=de&amp;username=ozzie100\&apos;" time="0.002"/>
+  <testcase classname="Scenario: First Test" name="When method get" time="0"/>
+  <testcase classname="Scenario: First Test" name="Then status 200" time="0"/>
+  <testcase classname="Scenario: First Test" name="* print \&apos;response:\&apos;\u002C response" time="0.002"/>
+  <testcase classname="Scenario: First Test" name="Scenario: First Test" time="0.002"/>
+  <testcase classname="Scenario: Second Scenario - secure" name="* configure ssl = true" time="0.001"/>
+  <testcase classname="Scenario: Second Scenario - secure" name="Given url \&apos;https:\/\/secure.geonames.org\/citiesJSON?north=44.1&amp;south=-9.9&amp;east=-22.4&amp;west=55.2&amp;lang=de&amp;username=ozzie100\&apos;" time="0"/>
+  <testcase classname="Scenario: Second Scenario - secure" name="When method get" time="0"/>
+  <testcase classname="Scenario: Second Scenario - secure" name="Then status 200" time="0"/>
+  <testcase classname="Scenario: Second Scenario - secure" name="* print \&apos;response:\&apos;\u002C response" time="0"/>
+  <testcase classname="Scenario: Second Scenario - secure" name="Scenario: Second Scenario - secure" time="0.004"/>
+  <testcase classname="Scenario: Third Scenario - Ocean lookup" name="Given url \&apos;http:\/\/api.geonames.org\/oceanJSON\&apos;" time="0"/>
+  <testcase classname="Scenario: Third Scenario - Ocean lookup" name="And param lat = 19.8968" time="0"/>
+  <testcase classname="Scenario: Third Scenario - Ocean lookup" name="And param lng = 155.5828" time="0"/>
+  <testcase classname="Scenario: Third Scenario - Ocean lookup" name="And param username = \&apos;ozzie100\&apos;" time="0"/>
+  <testcase classname="Scenario: Third Scenario - Ocean lookup" name="And param lang = \&apos;de\&apos;" time="0"/>
+  <testcase classname="Scenario: Third Scenario - Ocean lookup" name="When method get" time="0"/>
+  <testcase classname="Scenario: Third Scenario - Ocean lookup" name="Then status 200" time="0"/>
+  <testcase classname="Scenario: Third Scenario - Ocean lookup" name="And match response.ocean.name == \&apos;North Pacific Ocean\&apos;" time="0"/>
+  <testcase classname="Scenario: Third Scenario - Ocean lookup" name="And assert responseTime &lt; 1000" time="0.005">
+    <error message="assert evaluated to false: responseTime &lt; 1000" type="com.intuit.karate.exception.KarateException">com.intuit.karate.exception.KarateException: assert evaluated to false: responseTime &lt; 1000
+	at com.intuit.karate.StepDefs.asssertBoolean(StepDefs.java:349)
+	at ✽.And assert responseTime &lt; 1000(demo/features/geonames.feature:33)
+</error>
+    <system-out>15:23:01.109 [main] ERROR com.intuit.karate - assertion failed: assert evaluated to false: responseTime &lt; 1000
+</system-out>
+  </testcase>
+  <testcase classname="Scenario: Third Scenario - Ocean lookup" name="Scenario: Third Scenario - Ocean lookup" time="0.005">
+    <error message="assert evaluated to false: responseTime &lt; 1000" type="com.intuit.karate.exception.KarateException">com.intuit.karate.exception.KarateException: assert evaluated to false: responseTime &lt; 1000
+	at com.intuit.karate.StepDefs.asssertBoolean(StepDefs.java:349)
+	at ✽.And assert responseTime &lt; 1000(demo/features/geonames.feature:33)
+</error>
+  </testcase>
+  <testcase classname="Scenario: Third Scenario - Ocean lookup" name="* print \&apos;response:\&apos;\u002C response" time="0.006">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Fourth Scenario - POI lookup" name="* def poiSchema = { lng:\&apos;#string\&apos;\u002Cdistance:\&apos;#string\&apos;\u002Cname:\&apos;#string\&apos;\u002CtypeClass:\&apos;#string\&apos;\u002CtypeName:\&apos;#string\&apos;\u002Clat:\&apos;#string\&apos; }" time="0"/>
+  <testcase classname="Scenario: Fourth Scenario - POI lookup" name="Given url \&apos;http:\/\/api.geonames.org\/findNearbyPOIsOSMJSON\&apos;" time="0.001"/>
+  <testcase classname="Scenario: Fourth Scenario - POI lookup" name="And param lat = 37.451" time="0"/>
+  <testcase classname="Scenario: Fourth Scenario - POI lookup" name="And param lng = -122.18" time="0"/>
+  <testcase classname="Scenario: Fourth Scenario - POI lookup" name="And param username = \&apos;ozzie100\&apos;" time="0"/>
+  <testcase classname="Scenario: Fourth Scenario - POI lookup" name="When method get" time="0"/>
+  <testcase classname="Scenario: Fourth Scenario - POI lookup" name="Then status 200" time="0.001"/>
+  <testcase classname="Scenario: Fourth Scenario - POI lookup" name="* match response.poi == \&apos;#[]\&apos;" time="0"/>
+  <testcase classname="Scenario: Fourth Scenario - POI lookup" name="* match response.poi == \&apos;##[_ &gt; 7]\&apos;" time="0"/>
+  <testcase classname="Scenario: Fourth Scenario - POI lookup" name="* match response ==" time="0"/>
+  <testcase classname="Scenario: Fourth Scenario - POI lookup" name="* match response.poi[*].name contains [\&apos;Starbucks\&apos;]" time="0"/>
+  <testcase classname="Scenario: Fourth Scenario - POI lookup" name="* print \&apos;response:\&apos;\u002C response" time="0"/>
+  <testcase classname="Scenario: Fourth Scenario - POI lookup" name="Scenario: Fourth Scenario - POI lookup" time="0"/>
+  <testcase classname="Scenario: Fifth Scenario - Weather xml" name="Given url \&apos;http:\/\/api.geonames.org\/weather\&apos;" time="0"/>
+  <testcase classname="Scenario: Fifth Scenario - Weather xml" name="And param north = 44.1" time="0.001"/>
+  <testcase classname="Scenario: Fifth Scenario - Weather xml" name="And param south = -9.9" time="0"/>
+  <testcase classname="Scenario: Fifth Scenario - Weather xml" name="And param east = -22.4" time="0"/>
+  <testcase classname="Scenario: Fifth Scenario - Weather xml" name="And param west = 55.2" time="0"/>
+  <testcase classname="Scenario: Fifth Scenario - Weather xml" name="And param username = \&apos;ozzie100\&apos;" time="0"/>
+  <testcase classname="Scenario: Fifth Scenario - Weather xml" name="When method get" time="0"/>
+  <testcase classname="Scenario: Fifth Scenario - Weather xml" name="Then status 200" time="0"/>
+  <testcase classname="Scenario: Fifth Scenario - Weather xml" name="Then match response.geonames.observation[*].stationName contains \&apos;HALF MOON BAY\&apos;" time="0.001">
+    <error message="path: $.geonames.observation[*].stationName[*], actual: [&quot;MADISONVILLE&quot;,&quot;QUINCY&quot;,&quot;WRAY&quot;,&quot;SCOTTSBORO&quot;,&quot;CORNING&quot;,&quot;BUENA VISTA&quot;,&quot;Hopkins Field&quot;,&quot;AIKEN&quot;,&quot;Blake Field&quot;,&quot;SALIDA&quot;], expected: &apos;HALF MOON BAY&apos;, reason: actual value does not contain expected" type="com.intuit.karate.exception.KarateException">com.intuit.karate.exception.KarateException: path: $.geonames.observation[*].stationName[*], actual: [&quot;MADISONVILLE&quot;,&quot;QUINCY&quot;,&quot;WRAY&quot;,&quot;SCOTTSBORO&quot;,&quot;CORNING&quot;,&quot;BUENA VISTA&quot;,&quot;Hopkins Field&quot;,&quot;AIKEN&quot;,&quot;Blake Field&quot;,&quot;SALIDA&quot;], expected: &apos;HALF MOON BAY&apos;, reason: actual value does not contain expected
+	at com.intuit.karate.StepDefs.matchNamed(StepDefs.java:540)
+	at com.intuit.karate.StepDefs.matchContains(StepDefs.java:532)
+	at ✽.Then match response.geonames.observation[*].stationName contains &apos;HALF MOON BAY&apos;(demo/features/geonames.feature:71)
+</error>
+    <system-out>15:23:12.489 [main] ERROR com.intuit.karate - assertion failed: path: $.geonames.observation[*].stationName[*], actual: [&quot;MADISONVILLE&quot;,&quot;QUINCY&quot;,&quot;WRAY&quot;,&quot;SCOTTSBORO&quot;,&quot;CORNING&quot;,&quot;BUENA VISTA&quot;,&quot;Hopkins Field&quot;,&quot;AIKEN&quot;,&quot;Blake Field&quot;,&quot;SALIDA&quot;], expected: &apos;HALF MOON BAY&apos;, reason: actual value does not contain expected
+</system-out>
+  </testcase>
+  <testcase classname="Scenario: Fifth Scenario - Weather xml" name="Scenario: Fifth Scenario - Weather xml" time="0.001">
+    <error message="path: $.geonames.observation[*].stationName[*], actual: [&quot;MADISONVILLE&quot;,&quot;QUINCY&quot;,&quot;WRAY&quot;,&quot;SCOTTSBORO&quot;,&quot;CORNING&quot;,&quot;BUENA VISTA&quot;,&quot;Hopkins Field&quot;,&quot;AIKEN&quot;,&quot;Blake Field&quot;,&quot;SALIDA&quot;], expected: &apos;HALF MOON BAY&apos;, reason: actual value does not contain expected" type="com.intuit.karate.exception.KarateException">com.intuit.karate.exception.KarateException: path: $.geonames.observation[*].stationName[*], actual: [&quot;MADISONVILLE&quot;,&quot;QUINCY&quot;,&quot;WRAY&quot;,&quot;SCOTTSBORO&quot;,&quot;CORNING&quot;,&quot;BUENA VISTA&quot;,&quot;Hopkins Field&quot;,&quot;AIKEN&quot;,&quot;Blake Field&quot;,&quot;SALIDA&quot;], expected: &apos;HALF MOON BAY&apos;, reason: actual value does not contain expected
+	at com.intuit.karate.StepDefs.matchNamed(StepDefs.java:540)
+	at com.intuit.karate.StepDefs.matchContains(StepDefs.java:532)
+	at ✽.Then match response.geonames.observation[*].stationName contains &apos;HALF MOON BAY&apos;(demo/features/geonames.feature:71)
+</error>
+  </testcase>
+  <testcase classname="Scenario: Fifth Scenario - Weather xml" name="* print \&apos;response:\&apos;\u002C response" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: First Test" name="* configure ssl = true" time="0"/>
+  <testcase classname="Scenario: First Test" name="Given url \&apos;https:\/\/api.cascade1.seed-innovations.net\/api\&apos;" time="0"/>
+  <testcase classname="Scenario: First Test" name="And header Authorization = \&apos;Bearer \&apos; + myTOKEN" time="0"/>
+  <testcase classname="Scenario: First Test" name="When method get" time="0"/>
+  <testcase classname="Scenario: First Test" name="Then status 200" time="0"/>
+  <testcase classname="Scenario: First Test" name="* print \&apos;response:\&apos;\u002C response" time="0"/>
+  <testcase classname="Scenario: First Test" name="Given url \&apos;https:\/\/api.cascade1.seed-innovations.net\/api\/v1\&apos;" time="0"/>
+  <testcase classname="Scenario: First Test" name="And header Authorization = \&apos;Bearer \&apos; + myTOKEN" time="0"/>
+  <testcase classname="Scenario: First Test" name="When method get" time="0"/>
+  <testcase classname="Scenario: First Test" name="Then status 200" time="0"/>
+  <testcase classname="Scenario: First Test" name="* print \&apos;response:\&apos;\u002C response" time="0"/>
+  <testcase classname="Scenario: First Test" name="Given url \&apos;https:\/\/api.cascade1.seed-innovations.net\/api\/v1\/resources\&apos;" time="0"/>
+  <testcase classname="Scenario: First Test" name="And header Authorization = \&apos;Bearer \&apos; + myTOKEN" time="0.001"/>
+  <testcase classname="Scenario: First Test" name="When method get" time="0"/>
+  <testcase classname="Scenario: First Test" name="Then status 403" time="0"/>
+  <testcase classname="Scenario: First Test" name="* print \&apos;response:\&apos;\u002C response" time="0"/>
+  <testcase classname="Scenario: First Test" name="Scenario: First Test" time="0.004"/>
+</testsuite>
