@@ -14,6 +14,7 @@ node {
         app = docker.build("seedinnovations/karate")
     }
 
+	parallel {
     stage('Test image') {
         /* Ideally, we would run a test framework against our image.
          * For this example, we're using a Volkswagen-type approach ;-) */
@@ -23,6 +24,15 @@ node {
         }
     }
 
+    stage('Test image2') {
+        /* Ideally, we would run a test framework against our image.
+         * For this example, we're using a Volkswagen-type approach ;-) */
+
+        app.inside {
+            sh 'echo "Tests passed2"'
+        }
+    }
+}
     stage('Push image') {
         /* Finally, we'll push the image with two tags:
          * First, the incremental build number from Jenkins
